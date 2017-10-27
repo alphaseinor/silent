@@ -41,12 +41,45 @@ header{
 }
 
 .drive-button {
-
+  background-color: inherit;
 }
 
 /*
   Main
 */
+
+main{
+  width: 100%;
+}
+
+.main-box{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-left{
+  width: 20%;
+}
+
+.center-decoration{
+  width: 4px;
+  background-color: red;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+.main-right{
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  padding: 2rem 2rem 4rem 0; 
+}
+
+.main-title{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
 
 /*
   footer
