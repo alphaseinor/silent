@@ -73,7 +73,7 @@ main{
   display: flex;
   flex-direction: column;
   width: 75%;
-  padding: 2rem 2rem 4rem 0; 
+  padding: 2rem 2rem 4rem 0;
 }
 
 .main-title{
@@ -84,3 +84,8 @@ main{
 /*
   footer
 */
+
+.footer-box{
+  display: flex;
+  justify-content: center;
+}
